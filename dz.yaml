@@ -1,0 +1,11 @@
+github.com/devzero-inc/devenv-recipe:
+  name: nextjs-pg
+  repos:
+    - "https://github.com/devzero-inc/nextjs-pg"
+  packages:
+    - nodejs
+    - postgres
+  commands:
+    - name: "install dependencies"
+      shell: "npm install"
+      directory: "nextjs-pg"
