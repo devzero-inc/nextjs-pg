@@ -1,0 +1,12 @@
+dev:
+  commands:
+  - command: pnpm i --frozen-lockfile
+    directory: nextjs-pg
+    name: install cmd
+  name: ""
+  packages:
+  - nixpkgs.nodePackages.pnpm
+  - nixpkgs.nodejs_18
+  - nixpkgs.openssl
+  repos:
+  - https://github.com/devzero-inc/nextjs-pg
